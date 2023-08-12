@@ -18,7 +18,7 @@ const BaseButton = (props: Props) => {
       style={[styles.container, customStyle]}
       activeOpacity={0.6}
       onPress={onPress}>
-      <Text>{title}</Text>
+      <Text style={styles.title}>{title}</Text>
     </TouchableOpacity>
   );
 };
@@ -34,5 +34,8 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     backgroundColor: R.colors.mainColor,
     borderRadius: WIDTH(8),
+  },
+  title: {
+    color: R.colors.white,
   },
 });
