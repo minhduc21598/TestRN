@@ -88,7 +88,6 @@ const MainScreen = () => {
     })
       .then(response => response.json())
       .then(response => {
-        console.log('response ==>', response);
         setPeople(response);
       })
       .catch(error => error);
