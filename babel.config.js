@@ -9,7 +9,6 @@ module.exports = {
           '@configs': './app/configs',
           '@components': './app/components',
           '@screens': './app/screens',
-          '@navigation': './app/navigation',
           '@assets': './app/assets',
         },
       },
